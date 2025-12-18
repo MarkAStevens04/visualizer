@@ -9,7 +9,7 @@ export default {
     const ip  = request.headers.get("cf-connecting-ip") || "";
 
     // Pick whichever binding you actually created in Settings > Bindings
-    const DB = env.TEST_BINDING;
+    const DB = env.DB;
 
     if (!DB) {
       return new Response("D1 binding not found. Add a D1 binding named 'DB' or 'prod_d1_tutorial' in Settings > Bindings.", { status: 500 });
