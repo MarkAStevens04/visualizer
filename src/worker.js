@@ -993,7 +993,8 @@ if (url.pathname === "/leaderboard" || url.pathname === "/api/leaderboard") {
     </section>
 
     <footer>
-      JSON available at <a href="/api/leaderboard">/api/leaderboard</a>
+      JSON available at <a href="/api/leaderboard">/api/leaderboard</a> <br>
+      Something wrong? Report errors to rescolmancup.utm@utoronto.ca
     </footer>
   </div>
 </body>
